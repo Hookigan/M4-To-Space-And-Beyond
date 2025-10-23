@@ -1,0 +1,13 @@
+[gd_scene load_steps=4 format=3 uid="uid://dg4vaol5b1rrk"]
+
+[ext_resource type="PackedScene" path="res://practices/L2.P1.bullet/background.tscn" id="1_ayi7m"]
+[ext_resource type="Script" uid="uid://bqkgucrfnp681" path="res://practices/L2.P1.bullet/bullet.gd" id="2_b71bs"]
+[ext_resource type="PackedScene" path="res://practices/L2.P1.bullet/bullet.tscn" id="3_5uchi"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Background" parent="." instance=ExtResource("1_ayi7m")]
+script = ExtResource("2_b71bs")
+
+[node name="Sprite2D" parent="." instance=ExtResource("3_5uchi")]
+position = Vector2(1140, 753)
