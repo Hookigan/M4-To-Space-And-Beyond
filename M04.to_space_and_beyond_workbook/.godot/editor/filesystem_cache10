@@ -1,6 +1,6 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1761584912
-sprite_2d.tscn::PackedScene::6279008598501401080::1761584930::0::1::::<><><>0<>0<><>::
+::res://::1761675862
+sprite_2d.tscn::PackedScene::6279008598501401080::1761585986::0::1::::<><><>0<>0<><>::uid://bniyrxn3r2v8h::::res://assets/ship.png<>uid://jg57xwbfv1wc::::res://lessons/ship.gd
 ::res://addons/::1760899869
 ::res://addons/gdpractice/::1760899869
 build.gd::GDScript::4950939465197338071::1760899869::0::1::::<>SceneTree<><>0<>0<><>::
@@ -139,8 +139,9 @@ ship_side_flame_sdf.png::CompressedTexture2D::2106004460296468406::1760899869::1
 side_thruster.gd::GDScript::8180930123752941538::1760899869::0::1::::<>Sprite2D<><>0<>0<><>::
 side_thruster.gdshader::Shader::6482540627631370662::1760899869::0::1::::<><><>0<>0<><>::
 side_thruster.tscn::PackedScene::3111890477948035777::1760899869::0::1::::<><><>0<>0<><>::uid://5aft6fdror7s::::res://assets/ship/side_thruster/ship_side_flame_sdf.png<>uid://cymgq5td2kyqg::::res://assets/ship/side_thruster/side_thruster.gdshader<>uid://dos5yu20occh3::::res://assets/ship/side_thruster/side_thruster.gd
-::res://lessons/::1761243955
-node_2d.tscn::PackedScene::7641537878308518512::1761243955::0::1::::<><><>0<>0<><>::res://practices/L2.P1.bullet/background.tscn<>uid://bqkgucrfnp681::::res://practices/L2.P1.bullet/bullet.gd<>res://practices/L2.P1.bullet/bullet.tscn
+::res://lessons/::1761585986
+ship.gd::GDScript::645965756530324462::1761585986::0::1::::<>Sprite2D<><>0<>0<><>::
+ship.tscn::PackedScene::7641537878308518512::1761243955::0::1::::<><><>0<>0<><>::res://practices/L2.P1.bullet/background.tscn<>uid://bqkgucrfnp681::::res://practices/L2.P1.bullet/bullet.gd<>res://practices/L2.P1.bullet/bullet.tscn
 ::res://practices/::1760899869
 ::res://practices/L2.P1.bullet/::1761246166
 background.tscn::PackedScene::-1::1760899869::0::1::::<><><>0<>0<><>::res://assets/practice_assets/ellipse_yellow.png
