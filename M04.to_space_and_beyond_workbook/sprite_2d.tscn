@@ -8,3 +8,8 @@ use_parent_material = true
 position = Vector2(950, 520)
 texture = ExtResource("1_mehiu")
 script = ExtResource("2_lt4yx")
+
+[node name="Timer" type="Timer" parent="."]
+one_shot = true
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
